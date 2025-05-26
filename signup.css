@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Poppins;
+}
+body{
+    background-image: url('bg_pic.png');
+    background-color: #0e0f17;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.heading{ 
+    margin-top: 34px;
+    font-family: Poppins;
+font-weight: 500;
+font-size: 34px;
+line-height: 100%;
+letter-spacing: 3%;
+text-align: center;
+}
+ .fpara{
+    margin-top: 40px;
+    margin-bottom: 15px;
+   font-family:  Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+ }
+ h1 span{
+    color: #FFD54F;
+;
+;
+}
+
+.info{
+    margin: 8px;
+   border-radius: 12px;
+   padding: 6px;
+   width: 100%;
+   background: #000000;
+   color: white;
+   height: 40px;
+   border: 1px solid #FFD54F;
+   outline: none;   
+}
+#input1,#input2,#input3,#input4{
+    font-size: 14px;
+    font-family: Poppins;
+}
+label{
+    font-family: Poppins;
+    letter-spacing: 3%;
+    margin-left: 14px;
+     font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+}
+#cb{
+    margin-top: 15px;
+    margin-left: 14px;  
+    font-size: 12px;
+}
+.sb1{
+    width: 100%;
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 15px;
+     background: linear-gradient(90deg, #FF8C00 16.83%, #F8DF15 100%);
+     font-size: 14px;
+}
+.sb2{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+   background: #0B0C17;
+   backdrop-filter: blur(475px);
+   margin-bottom: 5px;
+   font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+button img{
+    width: 46.91px; 
+    height:44.82px;
+    margin-left: -10px;
+     
+}
+.lpara{
+    text-align: center;
+    font-size: 10px;
+
+}
+.small{
+    color: #FF8C00;
+
+}
+input::placeholder{
+    font-size: 14px;
+    color:white;
+    padding-left: 10px;
+}
+
